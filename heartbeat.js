@@ -4,7 +4,7 @@ function heartbeat() {
   // todo: implement Ventricular Assist Device (VAD) device here
 }
 
-setInterval(heartbeat, 100)
+setInterval(heartbeat, 1000)
 
 onerror = function(e) {
   console.warn('oops')
